@@ -1,0 +1,24 @@
+
+/*Common Styles*/
+
+body {
+  color: #222222;
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}
+
+/*Content Styles*/
+
+.top {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  margin-left: auto;
+  margin-right: auto;
+}
