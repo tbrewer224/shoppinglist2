@@ -6,17 +6,20 @@
 	 <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="app.js"></script>
 </head>
 <body>
 	<section class="top">
 	<h1>Thomas' Shopping List</h1>
 	</section>
 	<section class="list">
-		<p>Apples</p>
-		<p>Bananas</p>
-		<p>Pears</p>
-		<p>Pineapples</p>
-		<p>Strawberries</p>
+		<input type="text" id="add-todo">
+		<button id="add-button" disabled>Add to my list</button>
+<ul>
+	<li class="done">Apples</li>
+	<li class="todo"><button class="item">Done</button>Bananas</li>
+</ul>
 	</section>
 </body>
 </html>

@@ -8,7 +8,10 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  text-align: center;
+}
+
+h1 {
+    text-align: center;
 }
 
 /*Content Styles*/
@@ -21,4 +24,29 @@ body {
 .list {
   margin-left: auto;
   margin-right: auto;
+  padding-left: 6.5rem;
+  width: 400px;
 }
+
+.item {
+  margin-right: 0.5rem;
+  background-color: yellow;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+#add-button {
+  background-color: yellow;
+}
+
+#add-button:disabled {
+  background-color: #D3D3D3;
+}
+
+#add-todo {
+  background-color: gray;
+}
+
+
